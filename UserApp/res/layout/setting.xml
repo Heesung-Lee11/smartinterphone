@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+  
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="3dip"
+    android:background="#FF0000FF"
+	/>
+    
+	<TextView
+        android:id="@+id/inform_msg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="긴급 메시지 설정"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="bold" 
+        android:textSize="20sp"/>
+	
+	<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+	
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" 
+        android:gravity="center">
+        
+        
+        <EditText
+            android:id="@+id/msgEditText"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:hint="메시지를 입력하세요"
+            android:background="@drawable/round_btn"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+        <Button
+            android:id="@+id/btn_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn"
+            android:text="메시지 작성" />
+
+        
+    </LinearLayout>
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+    <TextView
+        android:id="@+id/msgtextView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" 
+        android:textSize="15sp"/>
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="3dip"
+    android:background="#FF0000FF"
+	/>
+    
+    <TextView
+        android:id="@+id/inform_num"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="긴급 메시지 수신자 설정"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" 
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+         >
+
+         <EditText
+            android:id="@+id/EditText"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.06"
+            android:hint="전화번호를 입력하세요"
+            android:inputType="number" 
+            android:background="@drawable/round_btn"
+            >
+        </EditText>
+        
+         
+        <Button
+            android:id="@+id/Button_addList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가"
+            android:background="@drawable/round_btn" >
+        </Button>
+
+       
+
+        <Button
+            android:id="@+id/Button_getNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전화번호부"
+            android:background="@drawable/round_btn" >
+        </Button>
+    </LinearLayout>
+    
+     <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+	/>
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="117dp"
+        android:layout_weight="0.22" >
+    </ListView>
+
+</LinearLayout>

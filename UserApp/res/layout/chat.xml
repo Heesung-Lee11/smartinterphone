@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="3dip"
+    android:background="#FF0000FF"
+	/>
+    
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="20dp"
+        android:layout_width="fill_parent"
+        android:id="@+id/l1"
+        >
+        
+        <TextView
+        android:id="@+id/text_visitor"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="left"
+        android:text="방문자"
+        android:textColor="#000000" 
+        android:textSize="15sp"/>
+        
+        <TextView
+        android:id="@+id/text_user"
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        android:text="나"
+        android:textColor="#000000" 
+        android:textSize="15sp"/>
+        
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/v1"
+    android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="#FF0000FF"
+    android:layout_below="@+id/l1"
+    />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@+id/v1"
+         >
+
+    </ListView>
+    
+    <LinearLayout android:orientation="horizontal" 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/listView1">
+        
+        <EditText
+            android:id="@+id/talkEditText"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+        
+       <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:background="@drawable/round_btn"
+        android:text="보내기" />
+
+       <Button
+           android:id="@+id/btn_2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="mOnClick"
+           android:background="@drawable/round_btn"
+           android:text="누구세요" />
+             
+    </LinearLayout>
+
+
+</RelativeLayout>

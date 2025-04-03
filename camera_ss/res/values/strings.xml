@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, camerass!</string>
+    <string name="app_name">camerass</string>
+ 
+  <string name="savedialog">Saved to photo album</string>
+    <string name="savedialog_video">Saved to Movie folder</string>
+
+
+ <string name="loadText">Loading images</string>
+	<string name="loadText_video">Loading videos</string>
+       
+         <string name="camera_save_text">사진함 폴더에 저장 되었습니다.</string> 
+           <string name="video_save_text">동영상 폴더에 저장 되었습니다.</string> 
+           
+           
+        <string name="main_text">폴더저장</string> 
+        <string name="info_text">아래의 파일명으로</string> 
+        <string name="info_text1">저장 하시겠습니까?</string> 
+        <string name="ok_button">확인</string> 
+        <string name="cancel_button">취소</string> 
+      <!-- /////////////////////////////////////// --> 
+       <string name="video_title_text">동영상 환경설정</string> 
+       	<string name="video_timer">촬영시간</string>
+       <string name="video_resolution_one">800x480</string>
+	<string name="video_resolution_two">400x240</string>
+       	<string name="video_timer_none">일반촬영</string>
+	<string name="video_timer_three">1분</string>
+	<string name="video_timer_five">5분</string>
+	<string name="video_timer_ten">10분</string>
+       
+       
+    <string name="title_text">카메라 환경설정</string>
+    <string name="menu_text">완료</string>
+	<string name="mode_select">모드설정</string>
+	<string name="resolution">해상도</string>
+	<string name="multishot">연속촬영</string>
+	<string name="bright">밝기</string>
+	<string name="whitebalance">화이트발란스</string>
+	<string name="fillter">필터</string>
+	<string name="sunlight">측광</string>
+	<string name="timer">타이머</string>
+	<string name="quality">화질</string>
+	
+	<string name="save_auto">자동모드</string>
+	<string name="no_save_auto">수동모드</string>
+    <string name="sunlight_center">전체</string>
+    <string name="sunlight_normal">중앙</string>
+
+	<string name="resolution_one">1024x768</string>
+	<string name="resolution_two">800x480</string>
+	<string name="resolution_three">400x240</string>
+	
+	<string name="multi_none">NONE</string>
+	<string name="multi_two">2분할</string>
+	<string name="multi_four">4분할</string>
+	<string name="multi_six">6분할</string>
+	
+	<string name="white_auto">자동</string>
+	<string name="white_bak">백열등</string>
+	<string name="white_hung">형광등</string>
+	<string name="white_sun">태양광</string>
+	<string name="white_cloud">흐린날</string>
+
+	<string name="fillter_none">None</string>
+	<string name="fillter_gray">Gray</string>
+	<string name="fillter_sepia">Sepia</string>
+	<string name="fillter_nega">Negative</string>
+
+	<string name="timer_none">None</string>
+	<string name="timer_three">3초</string>
+	<string name="timer_five">5초</string>
+	<string name="timer_ten">10초</string>
+	<string name="timer_fifteen">15초</string>
+
+	<string name="quality_vhigh">최고급</string>
+	<string name="quality_high">고급</string>
+	<string name="quality_normal">보통</string>
+    
+    
+    
+          <!-- /////////////////////////////////////// -->
+
+
+<!--        에러 메세지 다이얼로그 화면에 표시되는 글                                    -->
+ 	<string name="no_image">No pictures in the pictures folder</string>
+ 	<string name="no_video">No movie folder on the movie</string>
+ 	<string name="version">2009.11.26-0416 Release</string>
+	<string name="over_size">Exceeds the days later name</string>
+	<string name="first">You want to exit?</string>
+
+	<!--      알림창 메세지  -->
+	<string name="camerainit"> Resetting the camera </string>
+	
+	<string name="intopicview">Loading images</string>
+	
+	<string name="intoVideoView">Loading videos</string>
+
+	<string name="video_sdcard">Please insert the SDCARD</string>
+
+	<string name="video_sdcard_ok">Confirm</string>
+
+
+
+    <string name="initText">Loading images</string>
+    <string name="initText_video">Loading videos</string>
+    
+    <string name="invalid_intent">The intent is invalid.</string>
+ 
+    <string name="image_viewr_title">Image Viewer</string>
+    <string name="Cam">cam</string>
+    <string name="networkon">네트워크 온</string>
+    
+	<string name="msg_fail_init">TTS 초기화 실패</string>
+	<string name="msg_success_init">메시지를 입력하고 버튼을 누르시오</string>
+
+
+
+
+
+
+
+
+</resources>
